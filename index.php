@@ -14,6 +14,8 @@
      <!-- Bootstrap CSS -->
        <link rel="stylesheet" type="text/css" href="wp-content/themes/wpBootstrap/estilo/css/bootstrap.min.css">
    
+    <!-- Font Awesome -->
+        <link rel="stylesheet"  type="text/css" href="wp-content/themes/wpBootstrap/fontawesome/css/all.css">
 
         <!-- Custom styles for this template -->
         <style type="text/css">
@@ -32,58 +34,171 @@
     </head>
 
     <body>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"  >
-                <a class="navbar-brand" href="#">Navbar</a>
+        <head>
+            <nav class="navbar  navbar-expand-lg navbar-light bg-light"  style="margin-top: -50px" >
+                    
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                     <ul class="navbar-nav " >
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>                                              
-                    </ul>       
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Arquivos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre Nós</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Serviço</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Contato</a>
+                            </li>                                            
+                     </ul>       
                     <ul class="navbar-nav " >
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>                                              
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">
+                                    <i class ="fab fa-facebook-square fa-2x text-info" ></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fab fa-twitter-square fa-2x text-primary"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="fab fa-youtube-square  fa-2x text-danger"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">                           
+                                    <i class="fab fa-google-plus-square fa-2x text-primary"></i>
+                                </a>
+                            </li>                                              
                     </ul>             
-            </div><!--fim div-->
+                </div><!--fim div-->              
+            </nav><!--fim nav-->
             
-        </nav><!--fim nav-->
+        <!-- Main jumbotron for a primary marketing message or call to action -->       
+        </head>
+        <section >
+            <div class="jumbotron" style="border-bottom:2px solid red">
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-md-6 d-flex">
+                            <div class="brand align-self-center">
+                            <h1 class="display-4"><a href="#">Trust</a></h1>
+                            <p>Um portal comprometido com a verdade.</p>
+                            </div>                      
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="ml-auto mt-5">
+                                <div class="input-group input-group-lg">
+                                    <input type="text" class="form-control" placeholder="Digite...">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-info">Buscar</button>
+                                    </div>
+                                </div>
+                            </div>                      
+                        </div>
+                    </div> 
+                    
+                </div>
+            </div>
+        </section>
+                               
+            <nav class="navbar sticky-top navbar-expand-sm  bg-dark  " style="margin-top: -33px">
+               
+                <!--navegação-->
+                <ul class="navbar-nav ml-5"><!--definindo a margem ml- esquerda-->
+                    <li class="nav-item ml-5">
+                        <a href="" class="nav-link ">Notícias</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a href="" class="nav-link ">Esporte</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a href="" class="nav-link">Tecnolgia</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a href="" class="nav-link">Entretenimento</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a href="" class="nav-link">Multimidias</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a href="" class="nav-link">Saúde</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a href="" class="nav-link">Política</a>
+                    </li>
+                    <li class="nav-item ml-4">
+                        <a href="" class="nav-link">Games</a>
+                    </li>
+                </ul>
+            </nav>
+        
+        
+        
+ 
+    
+            
+
+                           
+       
+        
 
         
 
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
-            <div class="container">
-                <h1>Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-            </div>
-        </div>
 
         <div class="container">
             <!-- Example row of columns -->
             <div class="row">
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div>
+            </div>
+
+            <hr>
+                  <!-- Example row of columns -->
+                  <div class="row">
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Heading</h2>
+                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </div>
+            </div>
+
+            <hr>
+
+                  <!-- Example row of columns -->
+                  <div class="row">
                 <div class="col-md-4">
                     <h2>Heading</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
